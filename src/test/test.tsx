@@ -34,7 +34,7 @@ function Test() {
     const [User, setUser] = useState<DiscordUser>();
     const TestFetch = async():Promise<DiscordUser> => {
         const User = await fetch(
-            'http://localhost:5000/discord-auth-check',
+            'https://colossal-fernande-maguroalter.koyeb.app/discord-auth-check',
             {
                 method: 'GET',
                 credentials: 'include',
