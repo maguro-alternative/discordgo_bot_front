@@ -9,7 +9,7 @@ export default defineConfig({
         host: true, // ネットワーク上のIPアドレスを表示
     },
     build: {
-        outDir: 'dist', // ビルドの出力先ディレクトリ
+        //outDir: 'dist', // ビルドの出力先ディレクトリ
         sourcemap: false, // ソースマップの出力
     },
     publicDir: 'public', // 静的ファイルのディレクトリ
