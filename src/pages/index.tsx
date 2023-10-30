@@ -4,7 +4,7 @@ function Index(){
     return (
         <div>
             <h1>Index</h1>
-            <a href="https://colossal-fernande-maguroalter.koyeb.app/discord/auth">Login</a>
+            <a href={`${import.meta.env.VITE_SERVER_URL}/discord/auth`}>Login</a>
         </div>
     )
 }
